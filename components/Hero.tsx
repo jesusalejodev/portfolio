@@ -21,16 +21,19 @@ const Hero = () => {
 
             <div className='flex justify-center relative my-20 z-10'>
                 <div className='max-v-[89vw] md:max-w-2xl lg:max-w-[60vw] flex flex-col items-center justify-center'>
-                    <h2 className='uppercase tracking-widest text-xs text-center text-blue-100 max-w-80'>
-                        bienvenido/a a mi Porfolio
+                    <h2 className='uppercase tracking-widest text-L text-center text-blue-100 max-w-80 mb-2'>
+                       Bienvenido/a, soy
                     </h2>
+                    <h1 className="font-bold text-center text-[50px] md:text-5xl lg:text-6xl">
+                    Jesús Alejo,
+                    </h1>
                     <TextGenerateEffect 
-                        className='text-center text-[40px] md:text-5xl lg:text-6xl'
-                        words='Creando Experiencias de Usuario Únicas'
+                        className='text-center text-[25px] md:text-3xl lg:text-4xl'
+                        words='Full-Stack Web & Mobile Developer'
                     />
-                    <p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
-                        Hola, soy Jesús, desarrollador Full-Stack Web & Mobile.
-                    </p>
+                    {/*<p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
+                        <b>Software</b>, <b>diseño</b> y <b>usabilidad</b>.
+                    </p>*/}
                     <a href="#about">
                         <MagicButton
                             title="Mostrar mi trabajo"
