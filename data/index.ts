@@ -1,14 +1,14 @@
 export const navItems = [
-    { name: "About", link: "#about" },
-    { name: "Projects", link: "#projects" },
-    { name: "Testimonials", link: "#testimonials" },
-    { name: "Contact", link: "#contact" },
+    { name: "Sobre mí", link: "#about" },
+    { name: "Proyectos", link: "#projects" },
+    /*{ name: "Testimonials", link: "#testimonials" },*/
+    { name: "Contacto", link: "#contact" },
   ];
   
   export const gridItems = [
     {
       id: 1,
-      title: "He desarrollado aplicaciones nativas para varias plataformas incluyendo Web, Android y Windows",
+      title: "Experiencia desarrollando aplicaciones nativas para Web, Android, iOS y Windows",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -18,18 +18,18 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Me apasiona diseñar, presto atención a cada detalle para desarrollar el mejor producto posible.",
+      title: "Atención a cada detalle para construir el mejor producto posible.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "",
-      spareImg: "",
+      img: "/grid.svg",
+      spareImg: "/b4.svg",
     },
     {
       id: 3,
       title: "Mi 'tech stack'",
-      description: "Intento ampliar mis conocimientos siempre",
+      description: "En constante aprendizaje",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
       titleClassName: "justify-center",
@@ -38,13 +38,13 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Con gran facilidad para la comunicación, english too :)",
+      title: "Facilidad para la comunicación, english too!",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
       titleClassName: "justify-start",
-      img: "/grid.svg",
-      spareImg: "/b4.svg",
+      img: "",
+      spareImg: "",
     },
   
     {
@@ -72,21 +72,21 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
-      title: "3D Solar System Planets to Explore",
-      des: "Explore the wonders of our solar system with this captivating 3D simulation of the planets using Three.js.",
-      img: "/p1.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/fm.svg"],
-      link: "https://github.com/adrianhajdin?tab=repositories",
+      title: "Mi Trabajo de Fin de Grado",
+      des: "Rediseñé por completo la aplicación del Servicio de Salud de Castilla-La Mancha",
+      img: "/tfg.webp",
+      iconLists: ["/re.svg", "/figma.svg", "/kotlin.svg"],
+      link: "/tfg.pdf",
     },
     {
       id: 2,
-      title: "Yoom - Video Conferencing App",
-      des: "Simplify your video conferencing experience with Yoom. Seamlessly connect with colleagues and friends.",
-      img: "/p2.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/stream.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/zoom-clone",
+      title: "Mi Portafolio Web",
+      des: "Construido con Next.js para gestionar la interfaz de usuario, Three.js para renderizar elementos 3D, Framer Motion para animaciones y estilizado con TailwindCSS",
+      img: "/portfolio.png",
+      iconLists: ["/next.svg", "/three.svg", "/framer-motion.svg", "/tail.svg"],
+      link: "https://github.com/jesusalejodev/portfolio",
     },
-    {
+    /*{
       id: 3,
       title: "AI Image SaaS - Canva Application",
       des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
@@ -101,7 +101,7 @@ export const navItems = [
       img: "/p4.svg",
       iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
       link: "https://github.com/adrianhajdin/iphone",
-    },
+    },*/
   ];
   
   export const testimonials = [
