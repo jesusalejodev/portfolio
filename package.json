@@ -9,6 +9,7 @@
     "lint": "next lint"
   },
   "dependencies": {
+    "@sentry/nextjs": "^8.18.0",
     "@tabler/icons-react": "^3.9.0",
     "clsx": "^2.1.1",
     "framer-motion": "^11.2.13",
