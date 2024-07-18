@@ -173,11 +173,13 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Frontend Engineer Intern",
-      desc: "Assisted in the development of a web-based platform using React.js, enhancing interactivity.",
+      title: "Desarrollador CI/CD",
+      dates: "Abril - Junio 2024",
+      desc: "Prácticas FCT en las que ocupé un puesto en el equipo de CI/CD dentro de un proyecto de gran tamaño para Telefónica, trabajando también en los campos de DevOps y Testing.",
       className: "md:col-span-2",
-      thumbnail: "/exp1.svg",
-    },
+      thumbnail: "/hpe.png",
+      iconLists: ["/docker.svg", "/jenkins.svg", "/python.svg", "/git.svg"],
+    },/*
     {
       id: 2,
       title: "Mobile App Dev - JSM Tech",
@@ -199,6 +201,7 @@ export const navItems = [
       className: "md:col-span-2",
       thumbnail: "/exp4.svg",
     },
+    */
   ];
   
   export const socialMedia = [
