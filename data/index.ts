@@ -1,7 +1,8 @@
 export const navItems = [
     { name: "Sobre mí", link: "#about" },
-    { name: "Proyectos", link: "#projects" },
+    { name: "Experiencia", link: "#experience" },
     /*{ name: "Testimonials", link: "#testimonials" },*/
+    { name: "Proyectos", link: "#projects" },
     { name: "Contacto", link: "#contact" },
   ];
   
@@ -169,6 +170,49 @@ export const navItems = [
       nameImg: "/dockerName.svg",
     },
   ];
+
+  export const technologies = [
+    {
+      id: 1,
+      name: "kotlin",
+      img: "/kotlin.svg",
+    },
+    {
+      id: 2,
+      name: "java",
+      img: "/java.svg",
+    },
+    {
+      id: 3,
+      name: "react",
+      img: "/re.svg",
+    },
+    {
+      id: 4,
+      name: "html",
+      img: "/html.svg",
+    },
+    {
+      id: 5,
+      name: "css",
+      img: "/css.svg",
+    },
+    {
+      id: 6,
+      name: "js",
+      img: "/javascript.svg",
+    },
+    {
+      id: 7,
+      name: "node",
+      img: "/nodejs.svg",
+    },
+    {
+      id: 8,
+      name: "mysql",
+      img: "/mysql.svg",
+    },
+  ];
   
   export const workExperience = [
     {
@@ -208,13 +252,12 @@ export const navItems = [
     {
       id: 1,
       img: "/git.svg",
+      link: "https://github.com/jesusalejodev/",
     },
     {
       id: 2,
-      img: "/twit.svg",
-    },
-    {
-      id: 3,
       img: "/link.svg",
+      link: "https://www.linkedin.com/in/jesusalejodev/",
+
     },
   ];
