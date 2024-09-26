@@ -50,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Actualmente estoy aprendiendo Next.js, TypeScript y Node.js",
+      title: "Actualmente estoy aprendiendo Next.js, AngularJS y Node.js",
       description: "Lo que está por venir",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -87,22 +87,14 @@ export const navItems = [
       iconLists: ["/next.svg", "/three.svg", "/framer-motion.svg", "/tail.svg"],
       link: "https://github.com/jesusalejodev/portfolio",
     },
-    /*{
-      id: 3,
-      title: "AI Image SaaS - Canva Application",
-      des: "A REAL Software-as-a-Service app with AI features and a payments and credits system using the latest tech stack.",
-      img: "/p3.svg",
-      iconLists: ["/re.svg", "/tail.svg", "/ts.svg", "/three.svg", "/c.svg"],
-      link: "https://github.com/adrianhajdin/ai_saas_app",
-    },
     {
-      id: 4,
-      title: "Animated Apple Iphone 3D Website",
-      des: "Recreated the Apple iPhone 15 Pro website, combining GSAP animations and Three.js 3D effects..",
-      img: "/p4.svg",
-      iconLists: ["/next.svg", "/tail.svg", "/ts.svg", "/three.svg", "/gsap.svg"],
-      link: "https://github.com/adrianhajdin/iphone",
-    },*/
+      id: 3,
+      title: "El Tiempo en CLM",
+      des: "Aplicación sencilla para Windows llamada El Tiempo CLM que desarrollamos en clase de Desarrollo de Interfaces, utiliza C# y WPF para la interfaz gráfica.",
+      img: "/tiempoclmcsharp.png",
+      iconLists: ["/csharp.svg", "/dotnet.svg"],
+      link: "https://github.com/jesusalejodev/El-Tiempo-en-CLM",
+    },
   ];
   
   export const testimonials = [
@@ -218,19 +210,13 @@ export const navItems = [
     {
       id: 1,
       title: "Desarrollador CI/CD",
-      dates: "Abril - Junio 2024",
+      dates: "Marzo - Julio 2024",
       desc: "Prácticas FCT en las que ocupé un puesto en el equipo de CI/CD dentro de un proyecto de gran tamaño para Telefónica, trabajando también en los campos de DevOps y Testing.",
       className: "md:col-span-2",
       thumbnail: "/hpe.png",
       iconLists: ["/docker.svg", "/jenkins.svg", "/python.svg", "/git.svg"],
-    },/*
-    {
-      id: 2,
-      title: "Mobile App Dev - JSM Tech",
-      desc: "Designed and developed mobile app for both iOS & Android platforms using React Native.",
-      className: "md:col-span-2", // change to md:col-span-2
-      thumbnail: "/exp2.svg",
     },
+    /*
     {
       id: 3,
       title: "Freelance App Dev Project",
