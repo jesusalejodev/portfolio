@@ -209,7 +209,16 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Desarrollador CI/CD",
+      title: "Front-end Developer",
+      dates: "Octubre 2024 - Actualidad",
+      desc: "Diseño y desarrollo de una plataforma funcional para compartir contenidosentre creadores y marcas. Creación de la web con el framework Next.js,usando App Router, Turbopack, styling con TailwindCSS y uso de otraslibrerías React. Diseño a medida de productos. Webs en WordPress y GHL.",
+      className: "md:col-span-2",
+      thumbnail: "/logo-inline-white.png",
+      iconLists: ["/next.svg", "/tail.svg", "/git.svg"],
+    },
+    {
+      id: 2,
+      title: "CI/CD Developer",
       dates: "Marzo - Julio 2024",
       desc: "Prácticas FCT en las que ocupé un puesto en el equipo de CI/CD dentro de un proyecto de gran tamaño para Telefónica, trabajando también en los campos de DevOps y Testing.",
       className: "md:col-span-2",
