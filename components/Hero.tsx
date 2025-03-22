@@ -2,7 +2,7 @@ import React from 'react'
 import { Spotlight } from './ui/Spotlight'
 import { TextGenerateEffect } from './ui/TextGenerateEffect'
 import MagicButton from './MagicButton'
-import { FaLocationArrow } from 'react-icons/fa'
+import { FaFile, FaLocationArrow } from 'react-icons/fa'
 
 const Hero = () => {
     return (
@@ -34,6 +34,7 @@ const Hero = () => {
                     {/*<p className='text-center md:tracking-wider mb-4 text-sm md:text-lg lg:text-2xl'>
                         <b>Software</b>, <b>diseño</b> y <b>usabilidad</b>.
                     </p>*/}
+                    <div className="flex gap-2">
                     <a href="#about">
                         <MagicButton
                             title="Mostrar mi trabajo"
@@ -41,6 +42,15 @@ const Hero = () => {
                             position='right'
                         />
                     </a>
+                    <a href="/ESCV_Jesus_Alejo_2025.pdf" download>
+                        <MagicButton
+                            title="Descargar CV"
+                            icon={<FaFile/>}
+                            position='right'
+                        />
+                    </a>
+                    </div>
+                    
                 </div>
 
             </div>
