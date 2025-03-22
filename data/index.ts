@@ -9,7 +9,7 @@ export const navItems = [
   export const gridItems = [
     {
       id: 1,
-      title: "Experiencia desarrollando aplicaciones nativas para Web, Android, iOS y Windows",
+      title: " Titulado en Desarrollo de Aplicaciones Multiplataforma con Máster de especialización en Inteligencia Artificial y Big Data",
       description: "",
       className: "lg:col-span-3 md:col-span-6 md:row-span-4 lg:min-h-[60vh]",
       imgClassName: "w-full h-full",
@@ -19,7 +19,7 @@ export const navItems = [
     },
     {
       id: 2,
-      title: "Atención a cada detalle para construir el mejor producto posible.",
+      title: "Soy perfeccionista, exigente con mi trabajo y buen comunicador.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-2",
       imgClassName: "",
@@ -39,7 +39,7 @@ export const navItems = [
     },
     {
       id: 4,
-      title: "Facilidad para la comunicación, english too!",
+      title: "Inglés avanzado para proyectos internacionales.",
       description: "",
       className: "lg:col-span-2 md:col-span-3 md:row-span-1",
       imgClassName: "",
@@ -73,14 +73,23 @@ export const navItems = [
   export const projects = [
     {
       id: 1,
+      title: "Hackathon CaixaBank",
+      des: "Concurso de programación en el que desarrollé partes de Back y Front de una aplicación para CaixaBank, con score final",
+      img: "/hackaton.png",
+      iconLists: ["/java.svg", "/re.svg", "/SpringBoot.svg", "/material-ui.svg"],
+      link: "https://github.com/jesusalejodev/caixabank-app-hackaton",
+    },
+    {
+      id: 2,
       title: "Mi Trabajo de Fin de Grado",
       des: "Rediseñé por completo la aplicación del Servicio de Salud de Castilla-La Mancha",
       img: "/tfg.webp",
       iconLists: ["/re.svg", "/figma.svg", "/kotlin.svg"],
       link: "/tfg.pdf",
     },
+    
     {
-      id: 2,
+      id: 3,
       title: "Mi Portafolio Web",
       des: "Construido con Next.js para gestionar la interfaz de usuario, Three.js para renderizar elementos 3D, Framer Motion para animaciones y estilizado con TailwindCSS",
       img: "/portfolio.png",
@@ -88,7 +97,7 @@ export const navItems = [
       link: "https://github.com/jesusalejodev/portfolio",
     },
     {
-      id: 3,
+      id: 4,
       title: "El Tiempo en CLM",
       des: "Aplicación sencilla para Windows llamada El Tiempo CLM que desarrollamos en clase de Desarrollo de Interfaces, utiliza C# y WPF para la interfaz gráfica.",
       img: "/tiempoclmcsharp.png",
@@ -176,28 +185,29 @@ export const navItems = [
     },
     {
       id: 3,
+      name: "spring",
+      img: "/SpringBoot.svg",
+    },
+    {
+      id: 4,
       name: "react",
       img: "/re.svg",
     },
     {
-      id: 4,
-      name: "html",
-      img: "/html.svg",
-    },
-    {
       id: 5,
-      name: "css",
-      img: "/css.svg",
+      name: "tailwindcss",
+      img: "/tail.svg",
     },
+    
     {
       id: 6,
-      name: "js",
-      img: "/javascript.svg",
+      name: "python",
+      img: "/python.svg",
     },
     {
       id: 7,
-      name: "node",
-      img: "/nodejs.svg",
+      name: "js",
+      img: "/javascript.svg",
     },
     {
       id: 8,
