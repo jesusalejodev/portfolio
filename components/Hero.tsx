@@ -42,7 +42,7 @@ const Hero = () => {
                             position='right'
                         />
                     </a>
-                    <a href="/ESCV_Jesus_Alejo_2025.pdf" download>
+                    <a href="/CV_Jesus_Alejo_Pinero.pdf" download>
                         <MagicButton
                             title="Descargar CV"
                             icon={<FaFile/>}
