@@ -25,6 +25,7 @@ const Experience = () => {
                                 "linear-gradient(90deg, rgba(4,7,29,1) 0%, rgba(12,14,35,1) 100%)",
                             // add this border radius to make it more rounded so that the moving border is more realistic
                             borderRadius: `calc(1.75rem* 0.96)`,
+                            margin: "0px 0px 20px 0px",
                         }}
                         // remove bg-white dark:bg-slate-900
                         className="flex-1 text-black dark:text-white border-neutral-200 dark:border-slate-800"

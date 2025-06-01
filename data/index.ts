@@ -50,7 +50,7 @@ export const navItems = [
   
     {
       id: 5,
-      title: "Actualmente estoy aprendiendo Next.js, AngularJS y Node.js",
+      title: "Actualmente estoy aprendiendo Pentaho, Docker y PL/SQL.", 
       description: "Lo que está por venir",
       className: "md:col-span-3 md:row-span-2",
       imgClassName: "absolute right-0 bottom-0 md:w-96 w-60",
@@ -219,15 +219,24 @@ export const navItems = [
   export const workExperience = [
     {
       id: 1,
-      title: "Front-end Developer",
-      dates: "Octubre 2024 - Actualidad",
+      title: "Data Engineer",
+      dates: "Abril 2025 - Actualidad",
+      desc: "Periodo de formación inicial: Bootcamp de Data orientado al sector bancario. Práctica profesional en entornos de prueba con Python (Pandas, Numpy, Seaborn, Matplotlib), MySQL, Oracle PL/SQL, Pentaho.",
+      className: "md:col-span-2",
+      thumbnail: "/stemdo.png",
+      iconLists: ["/python.svg", "/plsql.svg", "/PENTAHO.png","seaborn.png"],
+    },
+    {
+      id: 2,
+      title: "Full-Stack Developer",
+      dates: "Octubre 2024 - Abril 2025",
       desc: "Diseño y desarrollo de una plataforma funcional para compartir contenidosentre creadores y marcas. Creación de la web con el framework Next.js,usando App Router, Turbopack, styling con TailwindCSS y uso de otraslibrerías React. Diseño a medida de productos. Webs en WordPress y GHL.",
       className: "md:col-span-2",
       thumbnail: "/logo-inline-white.png",
       iconLists: ["/next.svg", "/tail.svg", "/git.svg"],
     },
     {
-      id: 2,
+      id: 3,
       title: "CI/CD Developer",
       dates: "Marzo - Julio 2024",
       desc: "Prácticas FCT en las que ocupé un puesto en el equipo de CI/CD dentro de un proyecto de gran tamaño para Telefónica, trabajando también en los campos de DevOps y Testing.",
